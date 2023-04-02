@@ -1,0 +1,21 @@
+{
+  "name": "expressscss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "nodemon src/server.js",
+    "sass-watch": "sass --watch styles/main.scss public/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22",
+    "sass": "^1.60.0",
+    "scss": "^0.2.4"
+  }
+}
